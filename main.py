@@ -38,7 +38,7 @@ class MainWindow(QMainWindow):
         edit_menu_item.addAction(search_action)
         search_action.triggered.connect(self.search)
 
-#d
+#dh
         self.table = QTableWidget()
         self.table.setColumnCount(4)
         self.table.setHorizontalHeaderLabels(("Id", "Name", "Course", "Mobile"))
