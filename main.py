@@ -1,5 +1,4 @@
 import sys
-
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QApplication, QVBoxLayout, QLabel, QWidget, QGridLayout, \
      QLineEdit, QPushButton, QMainWindow, QTableWidget, QTableWidgetItem, QDialog, QVBoxLayout,QComboBox, QToolBar, QStatusBar, QMessageBox
@@ -39,7 +38,7 @@ class MainWindow(QMainWindow):
         edit_menu_item.addAction(search_action)
         search_action.triggered.connect(self.search)
 
-
+#d
         self.table = QTableWidget()
         self.table.setColumnCount(4)
         self.table.setHorizontalHeaderLabels(("Id", "Name", "Course", "Mobile"))
